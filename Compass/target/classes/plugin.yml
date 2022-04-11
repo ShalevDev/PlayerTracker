@@ -1,0 +1,13 @@
+name: Tutorial
+version: 1.0
+main: com.shalev.tutorial.Main
+api-version: 1.18
+commands:
+  cRefresh:
+    description: Refreshes the online player list and runs the scheduled tasks required for the plugin to function properly
+  taskStop:
+    description: Stops the scheduled tasks this plugin is responsible for
+  taskStopAll:
+    description: Stops all scheduled tasks on the server
+  taskDebug:
+    description: Helps the developer track the scheduled tasks
